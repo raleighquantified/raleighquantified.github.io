@@ -17,7 +17,7 @@ The average construction project in Raleigh had an estimated cost of just over $
 
 In fact, **75% of projects were estimated to cost under $135,000**, and the median project ran at just $53,616. These numbers give you a better sense of how much the typical project costs than you would get by looking at the statistical mean.
 
-
+![_config.yml]({{ site.baseurl }}/images/overall.png)
 
 ![_config.yml]({{ site.baseurl }}/images/res.png)
 
