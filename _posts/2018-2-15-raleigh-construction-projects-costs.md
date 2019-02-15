@@ -3,7 +3,7 @@ layout: post
 title:  "Estimated Costs of Raleigh Construction Projects by Year (Raleigh Open Data Project)"
 ---
 
-![_config.yml]({{ site.baseurl }}/images/raleigh_construction_projects.png)
+![_config.yml]({{ site.baseurl }}/images/raleigh_construction_projects1.png)
 
 A few outliers (such as a $130 million dollar REX Hospital expansion) forced me to compress the visualization significantly, even though the overwhelming majority of projects were estimated to cost less than $25 million. Future visualizations of this dataset will probably involve pointing out the outliers and then removing them. Let me know if you have any ideas.
 
