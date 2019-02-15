@@ -44,4 +44,4 @@ Four street names have been the site of over a thousand projects each. (For cont
 
 ![_config.yml]({{ site.baseurl }}/images/capital.png)
 
-*There's probably a lot more I could do with this data. Are there any questions you would like me to answer in a future post? Does anything here make you feel curious? You can let me know by commenting below or emailing me at michaelfosterprojects@gmail.com*
+*There's probably a lot more I could do with this data. Are there any questions you would like me to answer in a future post? Does anything here make you feel curious? You can let me know by commenting below or emailing me at [michaelfosterprojects@gmail.com](mailto:michaelfosterprojects@gmail.com)*
