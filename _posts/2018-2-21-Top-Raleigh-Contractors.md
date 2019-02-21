@@ -17,15 +17,37 @@ Though it wasn't technically difficult to derive information about contractors f
 
 I'm not convinced that I identified every potentially interesting feature, but I do think I found the most important ones. They include:
 
-**Project Count**: The number of permits in which a company as listed as the contractor. 
-**Total/Aggregate Costs of Planned Projects**: The sum of the estimated project costs of the permits in which a company is listed as the contractor. The caveats I've mentioned notwithstanding, this feature is meant to serve as a proxy for total gross revenue from all projects in Raleigh. 
-**Primary Permit Class**: Each permit has a feature called "Permit Class Mapped," which tells you whether a planned project is residential or non-residential. For the purposes of this post, a contractor's Primary Permit Class is the mode permit class for all of that contractor's projects. 
+**Project Count:**
+
+The number of permits in which a company as listed as the contractor. 
+
+**Total/Aggregate Costs of Planned Projects:** 
+
+The sum of the estimated project costs of the permits in which a company is listed as the contractor. The caveats I've mentioned notwithstanding, this feature is meant to serve as a proxy for total gross revenue from all projects in Raleigh. 
+
+**Primary Permit Class:** 
+
+Each permit has a feature called "Permit Class Mapped," which tells you whether a planned project is residential or non-residential. For the purposes of this post, a contractor's Primary Permit Class is the mode permit class for all of that contractor's projects. 
 
 Keep in mind that this doesn't necessarily tell you where where the majority of a contractor's revenue is coming from. For instance, a contractor that built two houses for $150,000 dollars each, and a large commercial building for $1,000,000, would be listed as residential, even though the majority of its revenue came from non-residential projects.
 
-Still, I think this feature is a "good enough" signal of a contractor's activities. 
+Still, I think this feature is a "good enough" signal of a contractor's activities.
 
-<!DOCTYPE html>
+<h2>The Most Prolific Contractors</h2>
+
+The mean project count was just under 8, which is way lower than I would have expected. Even stranger, half of contractors are listed in just one permit, and 75% are listed in three or fewer. 
+
+There are a few explanations for this, and determining how much weight to assign to each explanation would take another project altother. 
+
+**Commercial contractors typically work on fewer, larger projects than their residential counterparts**
+
+It's possible that commercial contractors are bringing down the average some, but most contractors seem to be primarily residential, so there's no way this is the primary driver of the low average project count you observe in the data.
+
+**Some contractors 
+
+![_config.yml]({{ site.baseurl }}/images/raleigh.png)
+
+
 <html lang="en">
   
   <head>
@@ -108,14 +130,5 @@ Still, I think this feature is a "good enough" signal of a contractor's activiti
 </html>
 
 
-
-
-
-
-![_config.yml]({{ site.baseurl }}/images/raleigh.png)
-
-
-
-![_config.yml]({{ site.baseurl }}/images/capital.png)
 
 *There's probably a lot more I could do with this data. Are there any questions you would like me to answer in a future post? Does anything here make you feel curious? You can let me know by commenting below or emailing me at [michaelfosterprojects@gmail.com](mailto:michaelfosterprojects@gmail.com)*
