@@ -3,6 +3,8 @@ layout: post
 title:  "The Top 100 Contractors in Raleigh (According to Permit Data)"
 ---
 
+![_projectcount.yml]({{ site.baseurl }}/images/bokeh_plot(4).png)
+
 <h2>A Few Caveats</h2>
 As regular readers know, I've been working with this dataset for a while now. In past posts (here, here, and here), I was looking mostly at general trends in Raleigh construction, and I trusted that the odd error in the data or flaw in my analysis wouldn't skew my findings that much. A good approximation was good enough. In this case, however, I'll be mentioning specific companies by name, so I want to be explicit about what sort of claims I am --and am not-- making.
 
