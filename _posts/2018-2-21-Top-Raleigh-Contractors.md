@@ -41,23 +41,33 @@ The mean project count was just under 8, which is way lower than I would have ex
 
 There are a few explanations for this, and determining how much weight to assign to each explanation would take another project altother, but let's go over them in outline: 
 
-**Non-residential contractors typically work on fewer, larger projects than their residential counterparts**
+**1. Non-residential contractors typically work on fewer, larger projects than their residential counterparts**
 
 It's possible that commercial contractors are bringing down the average some, but most contractors seem to be primarily residential, so there's no way this is the primary driver of the low average project count you observe in the data.
 
-**Some contractors do much of their business outside of the city**
+**2. Some contractors do much of their business outside of the city**
 
 Unfortunately, only 46% of contractors in my sample have their home city on record. Of those that do, 38% are based in Raleigh. 
 
-While most of the other most frequently appearing contractor cities are located nearby, it is possible that some contractors are mostly operating outside of the city, though, once again, I don't think this is the primary factor.
+The most frequently appearing contractor cities are located nearby, but it is possible that some contractors are mostly operating outside of the city, though, once again, I don't think this is the primary factor.
 
-**Some contractors work mostly as subcontractors**
+**3. Some contractors work mostly as subcontractors**
 
-Each permit only lists the general contractor overseeing the project. It seems possible that many of these contractors mostly operate as subcontractors.
+Each permit record only lists the general contractor overseeing the project. It seems possible that many of these contractors mostly operate as subcontractors.
 
-**Some contractors work primarily on smaller jobs that don't require a permit**
+**4. Some contractors work primarily on smaller jobs that don't require a permit**
 
 [According to the city](https://www.raleighnc.gov/business/content/PlanDev/Articles/DevServ/Homeowner/WhenIsAPermitRequired.html), a permit isn't required for all home improvement projects.
+
+At any rate, the most prolific contractors are massive outliers, appearing in thousands of permit records a piece. 
+
+![_projectcount.yml]({{ site.baseurl }}/images/prolific_contractors.png)
+
+Not surprisingly, these are all residential contractors. 
+
+<h2>Top Contractors by Aggregate Costs of Planned Projects</h2>
+
+
 
 
 
