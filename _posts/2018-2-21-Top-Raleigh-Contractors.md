@@ -37,7 +37,7 @@ Each permit record has a feature called *permit class mapped* which tells you wh
 
 Keep in mind that this doesn't necessarily tell you where where the majority of a contractor's revenue is coming from. For instance, a contractor that built two houses for $150,000 dollars each, and a large commercial building for $1,000,000, would be listed as residential, even though the majority of its revenue came from non-residential projects.
 
-Still, I think this feature is a "good enough" signal of a contractor's activities.
+Still, I think this feature is a "good enough" indication of a contractor's activities.
 
 First, let's take a look at Raleigh contractors in general: 
 
@@ -47,7 +47,7 @@ The mean project count was just under 8, which is way lower than I would have ex
 
 ![_projectcount.yml]({{ site.baseurl }}/images/projectcount.png)
 
-There are a few explanations for this, and determining how much weight to assign to each explanation would take another project altogether, but let's go over them in outline: 
+There are a few explanations for this, and determining how much weight to assign to each explanation would be another project altogether, but let's go over them in outline: 
 
 **1. Non-residential contractors typically work on fewer, larger projects than their residential counterparts**
 
