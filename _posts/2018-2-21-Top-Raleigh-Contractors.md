@@ -3,7 +3,7 @@ layout: post
 title:  "The Top 100 Contractors in Raleigh (According to Permit Data)"
 ---
 
-![_top100.yml]({{ site.baseurl }}/images/bokeh_plot (4).png)
+![_top100.yml]({{ site.baseurl }}/images/bokeh_plot (5).png)
 
 <h2>A Few Caveats</h2>
 As regular readers know, I've been working with this dataset for a while now. In past posts, I was looking mostly at general trends in Raleigh construction, and I trusted that the odd error in the data or flaw in my analysis wouldn't skew my findings that much. A good approximation was good enough. 
