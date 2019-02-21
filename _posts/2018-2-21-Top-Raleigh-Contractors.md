@@ -3,7 +3,7 @@ layout: post
 title:  "The Top 100 Contractors in Raleigh (According to Permit Data)"
 ---
 
-![_projectcount.yml]({{ site.baseurl }}/images/bokeh_plot (4).png)
+![_top100.yml]({{ site.baseurl }}/images/bokeh_plot (4).png)
 
 <h2>A Few Caveats</h2>
 As regular readers know, I've been working with this dataset for a while now. In past posts (here, here, and here), I was looking mostly at general trends in Raleigh construction, and I trusted that the odd error in the data or flaw in my analysis wouldn't skew my findings that much. A good approximation was good enough. In this case, however, I'll be mentioning specific companies by name, so I want to be explicit about what sort of claims I am --and am not-- making.
@@ -34,6 +34,8 @@ Each permit has a feature called "Permit Class Mapped," which tells you whether 
 Keep in mind that this doesn't necessarily tell you where where the majority of a contractor's revenue is coming from. For instance, a contractor that built two houses for $150,000 dollars each, and a large commercial building for $1,000,000, would be listed as residential, even though the majority of its revenue came from non-residential projects.
 
 Still, I think this feature is a "good enough" signal of a contractor's activities.
+
+First, let's take a look at Raleigh contractors in general: 
 
 <h2>The Most Prolific Contractors</h2>
 
