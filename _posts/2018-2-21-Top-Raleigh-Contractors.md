@@ -10,7 +10,7 @@ As regular readers know, I've been working with this dataset for a while now. In
 
 In this case, however, I'll be mentioning specific companies by name, so I want to be explicit about what sort of claims I am --and am not-- making.
 
-First of all, the dataset I'm using is a collection of permits available at raleigh open data. There isn't a one-to-one mapping between permits and completed buildings. Some planned projects are never completed at all. 
+First of all, the dataset I'm using is a collection of permits available at [Raleigh Open Data](http://data-ral.opendata.arcgis.com/datasets/building-permits). There isn't a one-to-one mapping between permits and completed buildings. Some planned projects are never completed at all. 
 
 Also, I suspect that there are some duplicates in this dataset, though they aren't the sort of duplicates that can easily be identified and removed programmatically. And the dataset is just too large to do much of anything manually. 
 
