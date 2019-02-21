@@ -6,7 +6,7 @@ title:  "The Top 100 Contractors in Raleigh (According to Permit Data)"
 ![_top100.yml]({{ site.baseurl }}/images/bokeh_plot (4).png)
 
 <h2>A Few Caveats</h2>
-As regular readers know, I've been working with this dataset for a while now. In past posts (here, here, and here), I was looking mostly at general trends in Raleigh construction, and I trusted that the odd error in the data or flaw in my analysis wouldn't skew my findings that much. A good approximation was good enough. 
+As regular readers know, I've been working with this dataset for a while now. In past posts, I was looking mostly at general trends in Raleigh construction, and I trusted that the odd error in the data or flaw in my analysis wouldn't skew my findings that much. A good approximation was good enough. 
 
 In this case, however, I'll be mentioning specific companies by name, so I want to be explicit about what sort of claims I am --and am not-- making.
 
@@ -17,7 +17,7 @@ Also, I suspect that there are some duplicates in this dataset, though they aren
 Additionally, these permits were filed in the city of Raleigh, and many of these companies operate outside of the city as well. In short, any inferences one might make about a contractor's financials based on this data are just that: inferences.
 
 <h2>Introduction</h2>
-This analysis was trickier than my previous posts in that it required me to completely restructure the data. In the original dataset, each permit was its own row, and information on different contractors merely features of those rows.
+This analysis was trickier than my previous posts in that it required me to completely restructure the data. In the original dataset, each permit record was its own row, and information on different contractors merely features of those rows.
 
 Though it wasn't technically difficult to derive information about contractors from permit data, I had to play with the data for a while to decide what I actually wanted to know about individual contractors.
 
@@ -25,7 +25,7 @@ I'm not convinced that I identified every potentially interesting feature, but I
 
 **Project Count:**
 
-The number of permits in which a company as listed as the contractor. 
+The number of permit records in which a company as listed as the contractor. 
 
 **Total/Aggregate Costs of Planned Projects:** 
 
@@ -33,7 +33,7 @@ The sum of the estimated project costs of the permits in which a company is list
 
 **Primary Permit Class:** 
 
-Each permit has a feature called "Permit Class Mapped," which tells you whether a planned project is residential or non-residential. For the purposes of this post, a contractor's Primary Permit Class is the mode permit class for all of that contractor's projects. 
+Each permit record has a feature called *permit class mapped* which tells you whether a planned project is residential or non-residential. For the purposes of this post, a contractor's primary permit class is the mode permit class for all of that contractor's projects. 
 
 Keep in mind that this doesn't necessarily tell you where where the majority of a contractor's revenue is coming from. For instance, a contractor that built two houses for $150,000 dollars each, and a large commercial building for $1,000,000, would be listed as residential, even though the majority of its revenue came from non-residential projects.
 
@@ -43,11 +43,11 @@ First, let's take a look at Raleigh contractors in general:
 
 <h2>Project Count</h2>
 
-The mean project count was just under 8, which is way lower than I would have expected. Even stranger, half of contractors are listed in just one permit, and 75% are listed in three or fewer. 
+The mean project count was just under 8, which is way lower than I would have expected. Even stranger, half of contractors are listed in just one permit record, and 75% are listed in three or fewer. 
 
 ![_projectcount.yml]({{ site.baseurl }}/images/projectcount.png)
 
-There are a few explanations for this, and determining how much weight to assign to each explanation would take another project altother, but let's go over them in outline: 
+There are a few explanations for this, and determining how much weight to assign to each explanation would take another project altogether, but let's go over them in outline: 
 
 **1. Non-residential contractors typically work on fewer, larger projects than their residential counterparts**
 
@@ -67,7 +67,7 @@ Each permit record only lists the general contractor overseeing the project. It 
 
 [According to the city](https://www.raleighnc.gov/business/content/PlanDev/Articles/DevServ/Homeowner/WhenIsAPermitRequired.html), a permit isn't required for all home improvement projects.
 
-<h2>The Most Prolific Constractors</h2>
+<h2>The Most Prolific Contractors</h2>
 
 The most prolific contractors are massive outliers, appearing in thousands of permit records a piece. 
 
@@ -77,7 +77,7 @@ Not surprisingly, these are all residential contractors.
 
 <h2>Aggregate Project Costs</h2>
 
-The distribution of Aggregate Project Costs is similar to that of Project Count. In this case, however, the difference between the median and mean values (eighteen grand vs a million and a half) is far more glaring. 
+The distribution of aggregate project costs is similar to that of Project Count. In this case, however, the difference between the median and mean values (eighteen grand vs a million and a half) is far more glaring. 
 
 ![_total.yml]({{ site.baseurl }}/images/total_dist.png)
 
@@ -91,8 +91,9 @@ While there's some overlap between the two groups, non-residential contractors a
 
 The explanation is actually pretty simple: You have to build a lot of houses to make as much as you could by building a single hospital or government building. 
 
-For additional context, check out the interactive below. 
+<h2>The Top 100</h2>
 
+Going by aggregate project costs, the companies that appear in the interactive below are top 100 contractors in Raleigh.
 
 <html lang="en">
   
@@ -175,6 +176,6 @@ For additional context, check out the interactive below.
   
 </html>
 
-
+If you found this post interesting, check out [3 Big Questions about Raleigh Construction (Answered by Data)](https://raleighquantified.com/3-big-questions-about-raleigh-construction/)
 
 *There's probably a lot more I could do with this data. Are there any questions you would like me to answer in a future post? Does anything here make you feel curious? You can let me know by commenting below or emailing me at [michaelfosterprojects@gmail.com](mailto:michaelfosterprojects@gmail.com)*
