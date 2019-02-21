@@ -6,9 +6,13 @@ title:  "The Top 100 Contractors in Raleigh (According to Permit Data)"
 ![_top100.yml]({{ site.baseurl }}/images/bokeh_plot (4).png)
 
 <h2>A Few Caveats</h2>
-As regular readers know, I've been working with this dataset for a while now. In past posts (here, here, and here), I was looking mostly at general trends in Raleigh construction, and I trusted that the odd error in the data or flaw in my analysis wouldn't skew my findings that much. A good approximation was good enough. In this case, however, I'll be mentioning specific companies by name, so I want to be explicit about what sort of claims I am --and am not-- making.
+As regular readers know, I've been working with this dataset for a while now. In past posts (here, here, and here), I was looking mostly at general trends in Raleigh construction, and I trusted that the odd error in the data or flaw in my analysis wouldn't skew my findings that much. A good approximation was good enough. 
 
-First of all, the dataset I'm using is a collection of permits available at raleigh open data. There isn't a one-to-one mapping between permits and completed buildings. Some planned projects are never completed at all. Also, I suspect that there are some duplicates in this dataset, though they aren't the sort of duplicates that can easily be identified and removed programmatically. And the dataset is just too large to do much of anything manually. 
+In this case, however, I'll be mentioning specific companies by name, so I want to be explicit about what sort of claims I am --and am not-- making.
+
+First of all, the dataset I'm using is a collection of permits available at raleigh open data. There isn't a one-to-one mapping between permits and completed buildings. Some planned projects are never completed at all. 
+
+Also, I suspect that there are some duplicates in this dataset, though they aren't the sort of duplicates that can easily be identified and removed programmatically. And the dataset is just too large to do much of anything manually. 
 
 Additionally, these permits were filed in the city of Raleigh, and many of these companies operate outside of the city as well. In short, any inferences one might make about a contractor's financials based on this data are just that: inferences.
 
@@ -71,15 +75,19 @@ Not surprisingly, these are all residential contractors.
 
 <h2>Top Contractors by Aggregate Costs of Planned Projects</h2>
 
+The distribution of Aggregate Project Costs is similar to that of Project Count. In this case, however, the difference between the median and mean values (eighteen grand vs a million and a half) is far more glaring. 
 
+![_total.yml]({{ site.baseurl }}/images/total_dist.png)
 
+Even more interestingly, compare these companies with the contractors we were looking at a moment ago:
 
+![_total_top.yml]({{ site.baseurl }}/images/total_top.png)
 
- 
+While there's some overlap between the two groups, non-residential contractors are overrepresented here, whereas they were completely absent from the other visualization. 
 
+The explanation is actually pretty simple: You have to build a lot of houses to make as much as you could by building a single hospital or government building. 
 
-
-
+For additional context, check out the interactive below. 
 
 
 <html lang="en">
