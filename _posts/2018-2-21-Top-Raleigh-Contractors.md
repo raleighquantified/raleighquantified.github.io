@@ -41,7 +41,7 @@ Still, I think this feature is a "good enough" signal of a contractor's activiti
 
 First, let's take a look at Raleigh contractors in general: 
 
-<h2>The Most Prolific Contractors</h2>
+<h2>Project Count</h2>
 
 The mean project count was just under 8, which is way lower than I would have expected. Even stranger, half of contractors are listed in just one permit, and 75% are listed in three or fewer. 
 
@@ -67,17 +67,21 @@ Each permit record only lists the general contractor overseeing the project. It 
 
 [According to the city](https://www.raleighnc.gov/business/content/PlanDev/Articles/DevServ/Homeowner/WhenIsAPermitRequired.html), a permit isn't required for all home improvement projects.
 
-At any rate, the most prolific contractors are massive outliers, appearing in thousands of permit records a piece. 
+<h2>The Most Prolific Constractors</h2>
+
+The most prolific contractors are massive outliers, appearing in thousands of permit records a piece. 
 
 ![_projectcount.yml]({{ site.baseurl }}/images/prolific_contractors.png)
 
 Not surprisingly, these are all residential contractors. 
 
-<h2>Top Contractors by Aggregate Costs of Planned Projects</h2>
+<h2>Aggregate Project Costs</h2>
 
 The distribution of Aggregate Project Costs is similar to that of Project Count. In this case, however, the difference between the median and mean values (eighteen grand vs a million and a half) is far more glaring. 
 
 ![_total.yml]({{ site.baseurl }}/images/total_dist.png)
+
+<h2>Top Contractors by Aggregate Project Costs</h2>
 
 Even more interestingly, compare these companies with the contractors we were looking at a moment ago:
 
