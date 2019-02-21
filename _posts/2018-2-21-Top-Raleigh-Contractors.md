@@ -14,7 +14,7 @@ First of all, the dataset I'm using is a collection of permits available at [Ral
 
 Also, I suspect that there are some duplicates in this dataset, though they aren't the sort of duplicates that can easily be identified and removed programmatically. And the dataset is just too large to do much of anything manually. 
 
-Additionally, these permits were filed in the city of Raleigh, and many of these companies operate outside of the city as well. In short, any inferences one might make about a contractor's financials based on this data are just that: inferences.
+Additionally, these permits were filed in the City of Raleigh, and many of these companies operate outside of the City as well. In short, any inferences one might make about a contractor's financials based on this data are just that: inferences.
 
 <h2>Introduction</h2>
 This analysis was trickier than my previous posts in that it required me to completely restructure the data. In the original dataset, each permit record was its own row, and information on different contractors merely features of those rows.
@@ -53,11 +53,11 @@ There are a few explanations for this, and determining how much weight to assign
 
 It's possible that commercial contractors are bringing down the average some, but most contractors seem to be primarily residential, so there's no way this is the primary driver of the low average project count you observe in the data.
 
-**2. Some contractors do much of their business outside of the city**
+**2. Some contractors do much of their business outside of the City**
 
-Unfortunately, only 46% of contractors in my sample have their home city on record. Of those that do, 38% are based in Raleigh. 
+Unfortunately, only 46% of contractors in my sample have their home City on record. Of those that do, 38% are based in Raleigh. 
 
-The most frequently appearing contractor cities are located nearby, but it is possible that some contractors are mostly operating outside of the city, though, once again, I don't think this is the primary factor.
+The most frequently appearing contractor cities are located nearby, but it is possible that some contractors are mostly operating outside of the City, though, once again, I don't think this is the primary factor.
 
 **3. Some contractors work mostly as subcontractors**
 
@@ -65,7 +65,7 @@ Each permit record only lists the general contractor overseeing the project. It 
 
 **4. Some contractors work primarily on smaller jobs that don't require a permit**
 
-[According to the city](https://www.raleighnc.gov/business/content/PlanDev/Articles/DevServ/Homeowner/WhenIsAPermitRequired.html), a permit isn't required for all home improvement projects.
+[According to the City](https://www.raleighnc.gov/business/content/PlanDev/Articles/DevServ/Homeowner/WhenIsAPermitRequired.html), a permit isn't required for all home improvement projects.
 
 <h2>The Most Prolific Contractors</h2>
 
