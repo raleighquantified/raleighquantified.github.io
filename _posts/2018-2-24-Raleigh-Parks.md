@@ -9,7 +9,7 @@ Eight types of parks appear in this dataset, the most common types being neighbo
 
 ![_top100.yml]({{ site.baseurl }}/images/raleigh_park_type.png)
 
-We observe something slightly strange in the chart below. While nieghborhood and open space parks are the most common types, they account for a relatively small amount of the land allocated for park development, so we can infer that different types of parks vary considerably in size
+We observe something slightly strange in the chart below. While neighborhood and open space parks are the most common types, they account for a relatively small amount of the land allocated for park development, so we can infer that different types of parks vary considerably in size
 
 ![_top100.yml]({{ site.baseurl }}/images/raleigh_land_acquired2.png)
 
@@ -20,7 +20,7 @@ For example, metro type parks account for less than 5% of all parks but nearly h
 Now let's take a look at the development status of different types of parks:
 ![_top100.yml]({{ site.baseurl }}/images/development_status.png)
 
-It looks like the least common park types are the most likely to be developed. My intuition going into this analysis was that larger parks receive more development resources, but size doesn't actually seem to be that predictive of development status. 
+My intuition going into this analysis was that larger parks would receive more development resources, which may be the case, but size doesn't actually seem to be that predictive of development status. 
 
 The only type that seems to be systemically underdeveloped is open spaces parks, though I wonder if the developed/undeveloped dichotomy is relevant here. How much do open spaces really need to be developed?
 
