@@ -24,7 +24,7 @@ My intuition going into this analysis was that larger parks would receive more d
 
 The only type that seems to be systemically underdeveloped is open spaces parks, though I wonder if the developed/undeveloped dichotomy is relevant here. How much do open spaces really need to be developed?
 
-In the interactive below (hover over the points for more info), it seems that most parks get developed pretty reliably-- given enough time. Undeveloped parks are massively overrepresented among recent acquisitions. 
+From the interactive below (hover over the points for more info), it seems that most parks get developed pretty reliably-- given enough time. Undeveloped parks are massively overrepresented among recent acquisitions. 
 <html lang="en">
   
   <head>
