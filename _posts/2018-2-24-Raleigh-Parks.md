@@ -7,7 +7,7 @@ title:  "A Brief Analysis of Park Development in Raleigh (with Visualizations)"
 Seven types of parks appear in this dataset.
 ![_top100.yml]({{ site.baseurl }}/images/raleigh_park_type.png)
 
-![_top100.yml]({{ site.baseurl }}/images/ raleigh_land_acquired2.png)
+![_top100.yml]({{ site.baseurl }}/images/raleigh_land_acquired2.png)
 
 ![_top100.yml]({{ site.baseurl }}/images/development_status.png)
 
