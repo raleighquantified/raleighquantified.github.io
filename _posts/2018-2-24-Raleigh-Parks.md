@@ -2,7 +2,7 @@
 layout: post
 title:  "A Brief Analysis of Park Development in Raleigh (with Visualizations)"
 ---
-
+![_top100.yml]({{ site.baseurl }}/images/bokeh_plot (10).png)
 <h2>Types of Parks</h2>
 
 Eight types of parks appear in this dataset the most common types being neighborhood and open space parks. 
