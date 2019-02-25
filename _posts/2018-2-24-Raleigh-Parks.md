@@ -18,7 +18,7 @@ For example, metro type parks account for less than 5% of all parks but nearly h
 ![_top100.yml]({{ site.baseurl }}/images/percentage.png)
 
 Now let's take a look at the development status of different types of parks:
-![_top100.yml]({{ site.baseurl }}/images/development_status.png)
+![_top100.yml]({{ site.baseurl }}/images/park_developed.png)
 
 My intuition going into this analysis was that larger parks would receive more development resources, which may be the case, but size doesn't actually seem to be that predictive of development status. 
 
