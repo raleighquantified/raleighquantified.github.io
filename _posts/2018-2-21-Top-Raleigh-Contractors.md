@@ -35,7 +35,7 @@ The sum of the estimated project costs of the permits in which a company is list
 
 Each permit record has a feature called *permit class mapped* which tells you whether a planned project is residential or non-residential. For the purposes of this post, a contractor's primary permit class is the mode permit class for all of that contractor's projects. 
 
-Keep in mind that this doesn't necessarily tell you where where the majority of a contractor's revenue is coming from. For instance, a contractor that built two houses for $150,000 dollars each, and a large commercial building for $1,000,000, would be listed as residential, even though the majority of its revenue came from non-residential projects.
+Keep in mind that this doesn't necessarily tell you where where the majority of a contractor's revenue is coming from. For instance, a contractor that built two houses for $150,000 dollars each, and a large commercial building for $1,000,000, would be considered residential, even though the majority of its revenue came from non-residential projects.
 
 Still, I think this feature is a "good enough" indication of a contractor's activities.
 
@@ -55,7 +55,7 @@ It's possible that commercial contractors are bringing down the average some, bu
 
 **2. Some contractors do much of their business outside of the City**
 
-Unfortunately, only 46% of contractors in my sample have their home City on record. Of those that do, 38% are based in Raleigh. 
+Unfortunately, only 46% of contractors in my sample have their home city on record. Of those that do, 38% are based in Raleigh. 
 
 The most frequently appearing contractor cities are located nearby, but it is possible that some contractors are mostly operating outside of the City, though, once again, I don't think this is the primary factor.
 
