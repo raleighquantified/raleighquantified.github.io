@@ -47,7 +47,7 @@ Going back to the original dataset, I decided to engineer a feature called "Numb
 
 I started thinking about other datasets that I could bring in, and I remembered that Raleigh Open Data maintains a datset of crime reports. I figured that crime was probably highly correlated with any number of socioeconomic variables, some of which would surely be relevant, so I gave it a try.
 
-Using regex, I was able to get a simple count of the number of crimes reported at each street name. This seemed to add some value, and normalizing for street density by dividing the count by the number of total permits on the relevant street worked even better. 
+Using regex, I was able to get a simple count for the number of crimes reported at each street name. This seemed to add some value, and normalizing for street density by dividing the count by the number of total permits on the relevant street worked even better. 
 
 To get a better sense of how well different models would perform, I ran a few a hundred times each, splitting the training and test data each time, and visualized the ranges of their accuracy scores:
 
