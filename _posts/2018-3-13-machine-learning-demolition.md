@@ -69,7 +69,7 @@ This is the correlation map for the model I ended up choosing:
 Now I want to look at the relative importance of different features, according to my model. I'll go from most to least significant. 
 
 **Latitude and Longitude**
-<iframe src="https://www.raleighquantified.com/raleigh_demos"></iframe>
+![_top100.yml]({{ site.baseurl }}/images/raleigh_demos.png)
 
 **Estimated Project Cost**
 
