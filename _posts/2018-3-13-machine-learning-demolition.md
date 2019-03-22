@@ -85,6 +85,9 @@ The average number of crimes per street was about three times as high for unrepl
 
 **Number of Permits for Street**
 
+![_top100.yml]({{ site.baseurl }}/images/numberofproperties.png)
 
+
+This one is interesting. Like estimated project cost, the number of permits per streets seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a higher peak and drops off more steeply than it does for rebuilt homes. 
 
 Year and Month
