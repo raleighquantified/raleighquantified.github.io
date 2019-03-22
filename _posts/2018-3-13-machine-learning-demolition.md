@@ -88,6 +88,12 @@ The average number of crimes per street was about three times as high for unrepl
 ![_top100.yml]({{ site.baseurl }}/images/numberofproperties.png)
 
 
-This one is interesting. Like estimated project cost, the number of permits per streets seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a higher peak and drops off more steeply than it does for rebuilt homes. 
+This one is interesting. Like estimated project cost, the number of permits per street seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a higher peak and drops off more steeply than it does for rebuilt homes. I strongly suspect that this is mostly a quirk of geography, and that the same is true of estimated project cost, but it may be worth investigating further.
 
-Year and Month
+
+**Year and Month**
+
+![_top100.yml]({{ site.baseurl }}/images/rebuilt_timeline2.png)
+
+Take a look at the middle of this chart and you can actually see when the housing market collapsed. Every year since then, with only two exceptions, demolished properties have been rebuilt. I won't speculate as to whether there's any relationship between those two data points, but it looks like demolition and rebuilding patterns have changed in recent years.
+
