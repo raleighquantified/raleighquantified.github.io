@@ -7,7 +7,7 @@ title:  "Using Machine Learning to Predict Whether Demolished Homes Will Be Rebu
 
 <h2>Introduction</h2>
 
-Since 2000, about four thousand permits have been filed for the demolition of residential properties in the City of Raleigh. Given the relatively high value of Raleigh real estate, I assumed that most of these homes were being demolished to make room for new planned development, or that developers would swoop in to find some new use for the land on which they sat. 
+Since 2000, about four thousand permits have been filed for the demolition of residential properties in the City of Raleigh. Given the relatively high value of Raleigh real estate, I assumed that most of these homes were being demolished to make room for planned development, or that developers would swoop in to find new uses for the land on which they sat. 
 
 However, when I looked at the data, I found that for a narrow majority of these properties, there was no record of their ever having been replaced. What could account for this? I had been itching to work on a classification problem anyway, so I decided to train a random forest model in order to get some sense of:
 
@@ -88,7 +88,7 @@ The average number of crimes per street was about three times as high for unrepl
 ![_top100.yml]({{ site.baseurl }}/images/numberofproperties.png)
 
 
-This one is interesting. Like estimated project cost, the number of permits per street seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a higher peak and drops off more steeply than it does for rebuilt homes. I strongly suspect that this is mostly a quirk of geography, and that the same is true of estimated project cost, but it may be worth investigating further.
+This one is interesting. Like estimated project cost, the number of permits per street seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a higher peak and drops off more steeply than it does for rebuilt homes. Part of me suspects that this is mostly a quirk of geography, and that the same is true of estimated project cost, but it may well be worth investigating further.
 
 
 **Year and Month**
@@ -97,10 +97,9 @@ This one is interesting. Like estimated project cost, the number of permits per 
 
 Take a look at the middle of this chart and you can actually see when the housing market collapsed. Every year since then, with only two exceptions, demolished properties have been rebuilt more often than not. I won't speculate as to whether there's any relationship between those two data points, but it does look like demolition and rebuilding patterns have changed in recent years.
 
-![_top100.yml]({{ site.baseurl }}/images/rebuilt_timeline2.png)
 
 And here are the monthly totals:
 
 ![_top100.yml]({{ site.baseurl }}/images/month.png)
 
-I don't know what to make of this, other than that properties destined to be rebuilt are demolished in the spring. Often, demolition and rebuilding permits are filed simultaneously or nearly simultaneously, so I wouldn't be surprised if there was actually a discernible yearly cycle. 
+I don't know what to make of this, other than that properties destined to be rebuilt are demolished in the spring. Often, demolition and rebuilding permits are filed simultaneously or nearly simultaneously, so I wouldn't be surprised if there was actually a discernible annual cycle. 
