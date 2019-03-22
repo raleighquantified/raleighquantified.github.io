@@ -95,7 +95,7 @@ This one is interesting. As with estimated project cost, the number of permits p
 
 ![_top100.yml]({{ site.baseurl }}/images/rebuilt_timeline2.png)
 
-Take a look at the middle of this chart and you can actually see when the housing market collapsed. Every year since then, with only two exceptions, demolished properties have been rebuilt more often than not. I won't speculate as to whether there's any relationship between those two data points, but it does look like demolition and rebuilding patterns have changed in recent years.
+Take a look at the middle of this chart and you can actually see where the housing market collapsed. Every year since then, with only two exceptions, demolished properties have been rebuilt more often than not. I won't speculate as to whether there's any relationship between those two data points, but it does look like demolition and rebuilding patterns have changed in recent years.
 
 
 And here are the monthly totals:
