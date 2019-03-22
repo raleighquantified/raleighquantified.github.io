@@ -19,7 +19,7 @@ However, when I looked at the data, I found that for a narrow majority of these 
 
 I used the same building permit data I used for a couple of my earlier analyses (here and here), and all the caveats I mentioned in those posts are obviously relevant here too. In this case, preparing the data was even trickier, in that I had to come up with a systematic way to determine whether a demolished building had had another built in its place.
 
-Identifying properties that had been demolished and never replaced was straightforward. I simply looked for addresses that were only associated with one permit a piece, and then filtered out non-demolition permits.
+Identifying properties that had been demolished and never replaced was pretty straightforward. I simply looked for addresses that were only associated with one permit a piece, and then filtered out non-demolition permits.
 
 The approach I took to identifying properties that had been replaced was more of a methodological stretch but (I think) still highly defensible. 
 
@@ -88,7 +88,7 @@ The average number of crimes per street was about three times as high for unrepl
 ![_top100.yml]({{ site.baseurl }}/images/numberofproperties.png)
 
 
-This one is interesting. Like estimated project cost, the number of permits per street seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a higher peak and drops off more steeply than it does for rebuilt homes. Part of me suspects that this is mostly a quirk of geography, and that the same is true of estimated project cost, but it may well be worth investigating further.
+This one is interesting. As with estimated project cost, the number of permits per street seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a higher peak and drops off more steeply than it does for rebuilt homes. Part of me suspects that this is mostly a quirk of geography, and that the same is true of estimated project cost, but it may well be worth investigating further.
 
 
 **Year and Month**
