@@ -36,13 +36,13 @@ I had a number of different columns to work with, but only a few proved useful t
 
 As a starting point, I just included latitude and longitude coordinates, estimated project cost, and the year and month that the permit was issued. This model was accurate about 70% of the time, but I thought I might be able to do better.
 
-*Density of Street Development*
+**Density of Street Development**
 
 A variable called "street number" seemed improve the model marginally, and I assumed that this was because, for higher street number, it helped the model identify streets where a lot of development had been done, which seemed relevant.
 
 Going back to the original dataset, I decided to engineer a feature called "Number of Permits," as I thought this would more reliably capture the amount of development that had happened on a given street, and it seemed to perform marginally better than street number.
 
-*Crime*
+**Crime**
 
 I started thinking about other datasets that I could bring in, and I remembered that Raleigh Open Data maintains a datset of crime reports. I figured that crime was probably highly correlated with any number of socioeconomic variables, some of which would surely be relevant, so I gave it a try.
 
@@ -57,5 +57,31 @@ The basic model used only my starting variables (latitude, longitude, estimated 
 
 ![_top100.yml]({{ site.baseurl }}/images/corrmapall.png)
 
+Intestingly, street number seems to be correlated with latitude, which seems to confirm that it isn't the purest metric for density.
+
 This is the correlation map for the model I ended up choosing:
+
+![_top100.yml]({{ site.baseurl }}/images/corrmap.png)
+
+<h2>Important Features</h2>
+
+Now I want to look at the relative importance of different features, according to my model. I'll go from most to least significant. 
+
+Latitude and Longitude
+
+Estimated Project Cost
+
+Crimes per Permit for Street
+
+Number of Permits for Street
+
+Year and Month
+
+
+
+
+
+
+
+
 
