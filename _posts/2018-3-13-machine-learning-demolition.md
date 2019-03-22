@@ -2,14 +2,7 @@
 layout: post
 title:  "Using Machine Learning to Predict Whether Demolished Homes Will Be Rebuilt"
 ---
-<head>
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
-   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-   crossorigin=""/>
-   <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-   crossorigin=""></script>
-  </head>
+
 ![_top100.yml]({{ site.baseurl }}/images/corrmapall.png)
 
 <h2>Introduction</h2>
@@ -76,7 +69,7 @@ This is the correlation map for the model I ended up choosing:
 Now I want to look at the relative importance of different features, according to my model. I'll go from most to least significant. 
 
 **Latitude and Longitude**
-{{page.raleigh_demos}}
+{{ page.raleigh_demos }}
 
 **Estimated Project Cost**
 
