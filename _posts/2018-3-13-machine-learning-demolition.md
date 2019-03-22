@@ -70,7 +70,7 @@ Now I want to look at the relative importance of different features, according t
 **Latitude and Longitude**
 
 
-<!DOCTYPE html>
+<html>
 <head>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
@@ -44377,7 +44377,7 @@ Now I want to look at the relative importance of different features, according t
                 .addTo(map_560c8452c63e4005b12212807cf61c79);
             
 </script>
-
+</html>
 
 **Estimated Project Cost**
 
