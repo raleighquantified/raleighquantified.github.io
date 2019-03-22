@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+layout: page
+title: map
+permalink: /raleigh_demos/
 <head>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
