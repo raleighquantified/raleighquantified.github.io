@@ -72,6 +72,8 @@ Now I want to look at the relative importance of different features, according t
 
 Here's a map of the permit locations. It looks like they tend to cluster according to whether or not they were rebuilt, but I honestly can't see any obvious, easily explainable trends here. Maybe at some point I'll divide the map by zip codes or city council districts and look at the percentage rebuilt for each section. 
 
+(Rebuilt properties are filled in with blue, non-rebuilt properties with orange.)
+
 ![_top100.yml]({{ site.baseurl }}/images/raleigh_demos.png)
 
 **Estimated Project Cost**
