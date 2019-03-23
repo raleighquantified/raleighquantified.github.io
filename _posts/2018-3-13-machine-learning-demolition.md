@@ -25,7 +25,7 @@ The approach I took to identifying properties that had been replaced was more of
 
 Essentially, I found addresses associated with exactly two permits --one a demolition permit, the other a building permit. After sorting and briefly scanning the resulting dataframe, I found that this approach had (at least for the most part) correctly identified demolished-and-replaced properties. 
 
-One objection might be that I probably missed some properties that had been demolished a rebuilt multiple times. I'm glad to concede that I probably missed a few, but most properties were associated with only one or two permits, so I wasn't that concerned about it. 
+One objection might be that I probably missed some properties that had been demolished and rebuilt multiple times. I'm glad to concede that I probably missed a few, but most properties were associated with only one or two permits, so I wasn't that concerned about it. 
 
 <h2>Feature Selection and Engineering</h2>
 
@@ -69,6 +69,8 @@ This is the correlation map for the model I ended up choosing:
 Now I want to look at the relative importance of different features, according to my model. I'll go from most to least significant. 
 
 **Latitude and Longitude**
+
+Here's a map of the permit locations. It looks like they tend to cluster according to whether or not they were rebuilt, but I honestly can't see any obvious, easily explainable trends here. Maybe at some point I'll divide the map by zip codes or city council districts and look at the percentage rebuilt for each section. 
 ![_top100.yml]({{ site.baseurl }}/images/raleigh_demos.png)
 
 **Estimated Project Cost**
