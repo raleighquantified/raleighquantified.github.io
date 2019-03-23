@@ -108,3 +108,5 @@ And here are the monthly totals:
 ![_top100.yml]({{ site.baseurl }}/images/month.png)
 
 I don't know what to make of this, other than that properties destined to be rebuilt are demolished in the spring. Often, demolition and rebuilding permits are filed simultaneously or nearly simultaneously, so I wouldn't be surprised if there was actually a discernible annual cycle. 
+
+*There's probably a lot more I could do with this data. Are there any questions you would like me to answer in a future post? Does anything here make you feel curious? You can let me know by commenting below or emailing me at [michaelfosterprojects@gmail.com](mailto:michaelfosterprojects@gmail.com)*
