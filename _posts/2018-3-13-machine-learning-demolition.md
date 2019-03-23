@@ -17,7 +17,7 @@ However, when I looked at the data, I found that for a narrow majority of these 
 
 <h2>Preparing the Data</h2>
 
-I used the same building permit data I used for a couple of my earlier analyses (here and here), and all the caveats I mentioned in those posts are obviously relevant here too. In this case, preparing the data was even trickier, in that I had to come up with a systematic way to determine whether a demolished building had had another built in its place.
+I used the same building permit data I used for a couple of my earlier analyses ([here](https://raleighquantified.com/Top-Raleigh-Contractors/) and [here](https://raleighquantified.com/3-big-questions-about-raleigh-construction/)), and all the caveats I mentioned in those posts are obviously relevant here too. In this case, preparing the data was even trickier, in that I had to come up with a systematic way to determine whether a demolished building had had another built in its place.
 
 Identifying properties that had been demolished and never replaced was pretty straightforward. I simply looked for addresses that were only associated with one permit a piece, and then filtered out non-demolition permits.
 
