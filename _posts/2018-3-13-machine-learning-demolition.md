@@ -11,9 +11,9 @@ Since 2000, about four thousand permits have been filed for the demolition of re
 
 However, when I looked at the data, I found that for a narrow majority of these properties, there was no record of their ever having been replaced. What could account for this? I had been itching to work on a classification problem anyway, so I decided to train a random forest model in order to get some sense of:
 
-1. The extent to which demolition and rebuilding patterns predictable.
+1. The extent to which demolition and rebuilding patterns are predictable.
 
-2. The most important "risk factors" that predict whether a given property will be rebuilt and never replaced. 
+2. The most important "risk factors" that predict whether a given property will be demolished and never replaced. 
 
 <h2>Preparing the Data</h2>
 
@@ -88,7 +88,7 @@ The average number of crimes per street was about three times as high for unrepl
 ![_top100.yml]({{ site.baseurl }}/images/numberofproperties.png)
 
 
-This one is interesting. As with estimated project cost, the number of permits per street seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a higher peak and drops off more steeply than it does for rebuilt homes. Part of me suspects that this is mostly a quirk of geography, and that the same is true of estimated project cost, but it may well be worth investigating further.
+This one is interesting. As with estimated project cost, the number of permits per street seems to have a longer tailed distribution for non-rebuilt properties. For these properties, the frequency hits a lower peak and drops off less steeply than it does for rebuilt homes. Part of me suspects that this is mostly a quirk of geography, and that the same is true of estimated project cost, but it may well be worth investigating further.
 
 
 **Year and Month**
