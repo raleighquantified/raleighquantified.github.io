@@ -33,7 +33,7 @@ I had a number of different columns to work with, but only a few proved useful t
 
 1. My main goal was identifying general trends, so I constrained myself to using features that were anchored to these trends. Administrative elements (permit numbers, information about contractors,etc.) of individual permit records may have actually improved the accuracy of my model, but it wasn't clear that they would illuminate anything about the City overall. 
 
-2. There was considerable collinearity between many of the dataset's existing features. For example, one-hot encoding zip codes failed to add much predictive value, as I had already included other, better location-identifying features.
+2. There was considerable colinearity between many of the dataset's existing features. For example, one-hot encoding zip codes failed to add much predictive value, as I had already included other, better location-identifying features.
 
 As a starting point, I just included latitude and longitude coordinates, estimated project cost, and the year and month that the permit was issued. This model was accurate about 70% of the time, but I thought I might be able to do better.
 
